@@ -75,7 +75,7 @@ public:
     }
 };
 
-int main() {
+int main2() {
     Matrix m; Vector v; Scalar s;
     Math* math[] = { &m, &v, &s };
     for(int i = 0; i < 3; i++)
